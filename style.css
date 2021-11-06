@@ -36,7 +36,7 @@
     width: 350px;
     height: auto;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .top button {
@@ -50,6 +50,11 @@
 .top button a {
     color: white;
     text-decoration: none;
+}
+
+.albumsec {
+    padding: 20px;
+    margin-top: 40px;
 }
 
 .albumsec h1 {
@@ -75,4 +80,73 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 30px;
+}
+
+.quote h3 {
+    text-align: center;
+}
+
+.lyrics {
+    text-align: center;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    gap: 160px;
+
+}
+
+.box-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.box-right {
+    display: flex;
+    align-items: center;
+}
+
+.box-right button {
+    padding: 10px;
+    background-color: #3882F6;
+    margin: 0;
+    border: white 2px solid;
+    border-radius: 7px;
+}
+
+.box-right a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 20px;
 }
